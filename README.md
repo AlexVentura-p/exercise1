@@ -8,7 +8,11 @@ Al ser ejecutado, se debe ingresar el texto por medio de la linea de comandos y 
 
 ## Ejecución con Docker
 -crear imagen
-`docker build -t exercise1 .`
+```
+docker build -t exercise1 .
+```
 
 -ejecutar script
-`docker run --rm -it exercise1`
+```
+docker run --rm -it exercise1
+```
